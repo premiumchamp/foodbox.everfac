@@ -3,7 +3,7 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false,
+  production: true,
   serverUrl: 'https://foodbox.everfac.com/parse',
   appUrl: 'https://shop.everfac.com',
   appImageUrl: 'https://foodbox.everfac.com/assets/imgs/ionshop.png',
