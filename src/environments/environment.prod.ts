@@ -1,5 +1,5 @@
 export const environment = {
-  production: ture,
+  production: true,
   serverUrl: 'https://foodbox.everfac.com/parse',
   appUrl: 'https://shop.everfac.com',
   appImageUrl: 'https://foodbox.everfac.com/assets/imgs/ionshop.png',
