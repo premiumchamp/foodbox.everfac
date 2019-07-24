@@ -105,7 +105,7 @@ export class SignInPage extends BasePage {
       await this.showLoadingView({ showOverlay: false });
       this.isLoadingByFacebook = true;
       
-      const user = await this.userService.linkWith('facebook', {
+      const user = await this.userService.loginWith('facebook', {
         authData: facebookAuthData
       });
 
