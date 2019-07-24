@@ -4,7 +4,7 @@
 
 export const environment = {
   production: true,
-  serverUrl: 'https://foodbox.everfac.com/parse',
+  serverUrl: 'https://foodbox.everfac.com/parse/',
   appUrl: 'https://foodbox.everfac.com',
   appImageUrl: 'https://foodbox.everfac.com/assets/imgs/ionshop.png',
   appId: 'SvflR3hB7O',
