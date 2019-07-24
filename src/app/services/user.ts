@@ -15,14 +15,14 @@ export class User extends Parse.User {
   }
 
   static getCurrent() {
-    return <User>this.current();
+    return User.current() as User;
   }
 
   isLoggedInViaPassword() {
     return !this.authData;
   }
 
-  linkWith(provider: string, authData: any = {}): Promise<User> {
+  loginWith(provider: string, authData: any = {}): Promise<User> {
     const user: any = new User;
     return user._linkWith(provider, authData);
   }
